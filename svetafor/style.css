@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(14, 14, 14, 0.867);
+}
+
+.contener{
+    background-color: black;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.yu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.qizil{
+    background-color: red;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+}
+
+.sariq{
+    background-color: yellow;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+}
+
+.yashil{
+    background-color: green;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+}
+
+.hu{
+    width: 100px;
+    height: 50px;
+    border-color: aqua;
+    color: azure;
+    background-color: rgba(3, 135, 201, 0.837);
+}
